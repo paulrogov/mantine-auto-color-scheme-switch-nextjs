@@ -1,0 +1,10 @@
+.additionalTopPaddingOnDesktop {
+	/* desktop-only */
+	@media (min-width: em(750px)) {
+		padding-top: 40px;
+	}
+
+	/* mobile-only */
+	/* @media (max-width: em(750px)) {
+	} */
+}

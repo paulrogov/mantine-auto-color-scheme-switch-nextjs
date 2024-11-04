@@ -1,0 +1,25 @@
+.pageHeight {
+	/* desktop-only */
+	@media (min-width: em(750px)) {
+		height: calc(100vh - 100px);
+	}
+
+	/* mobile-only */
+	@media (max-width: em(750px)) {
+		height: auto;
+	}
+}
+
+.pageWidth {
+	/* mobile-only */
+	@media (max-width: em(650px)) {
+		margin: 0 24px;
+	}
+}
+
+.additionalTopPaddingOnDesktop {
+	/* desktop-only */
+	@media (min-width: em(750px)) {
+		padding-top: 40px;
+	}
+}
